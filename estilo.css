@@ -1,0 +1,114 @@
+@media screen and (max-width: 600px) {
+  .scrolled_menu a:not(:first-child) {display: none;}
+  .scrolled_menu a.icon {
+    float: right;
+    display: block;
+	.parallax {
+  /* The image used */
+  background-image:url("../images/PARALAX (1).png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .scrolled_menu.responsive {position: relative;}
+  .scrolled_menu.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .scrolled_menu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+	.parallax {
+  /* The image used */
+  background-image:url("../images/PARALAX (1).png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+* {box-sizing: border-box}
+body{
+	margin: 0%;
+	width: 100%;
+}
+.scrolled_menu {
+  width: 100%;
+  background-color: #FFDF44;
+  overflow: auto;
+  font-family: 'Lexend Deca', sans-serif;
+  position: fixed;
+	
+}
+.scrolled_menu a{
+  float: left;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%;
+  text-align: center;
+}
+.scrolled_menu a:hover{
+	background-color:rgba(255,223,68,0.3);
+    color: black;
+}
+.scrolled_menu a.active{
+	background-color: #FFDF44;
+    color: black;
+}
+.scrolled_menu .icon{
+	display: none;
+}
+.parallax {
+  /* The image used */
+  background-image:url("../images/PARALAX (1).png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#subirTopo {
+text-decoration: none;
+background: rgba(255,191,68,.9);
+bottom: 30px;
+right: 30px;
+color: #000000;
+text-align: center;
+cursor: pointer;
+padding: 15px;
+font-size: 15px;
+font-weight: bold;
+text-transform: uppercase;
+position: fixed;
+border: 0;
+font-family: 'Lexend Deca', sans-serif;
+opacity: .8;
+}
+
+#subirTopo:hover {
+opacity:1;
+}
